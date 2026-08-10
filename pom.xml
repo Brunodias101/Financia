@@ -8,11 +8,11 @@
 		<version>3.5.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>mvc</artifactId>
+	<groupId>com.bruno101dias</groupId>
+	<artifactId>financia</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mvc</name>
-	<description>Demo project for Spring Boot</description>
+	<name>Financia</name>
+	<description>API de controle financeiro pessoal</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -40,8 +40,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-j</artifactId>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 
